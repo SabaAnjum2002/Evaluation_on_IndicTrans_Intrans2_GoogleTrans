@@ -162,83 +162,14 @@ translate_file(input_file_path, output_file_path, dest_language='en')
 <strong>Results</strong>
 <br>
 ---
-## Evaluation Metrics
-
-### Hindi to English Translation
-
-### BLEU Score (IndicTrans)
-- **Score:** 23.6
-- **Verbose Score:** 70.7/43.6/29.6/21.2 (BP = 0.633  ratio=0.686 hyp_len = 11356 ref_len = 16552)
-- **Signature:** nrefs=1, case=mixed, eff=no, tok=13a, smooth=exp
-- **Version:** 2.3.1
-
-### chrF++ Score (IndicTrans)
-- **Score:** 46.7
-- **Signature:** nrefs=1, case=mixed, eff=yes, nc=6, nw=2, space=no
-- **Version:** 2.3.1
-
-### Telugu to English Translation
-
-### BLEU Score (IndicTrans)
-- **Score:** 27.7
-- **Verbose Score:** 65.0/38.2/24.9/16.9 (BP = 0.868 ratio = 0.876 hyp_len = 15708 ref_len=17936)
-- **Signature:** nrefs=1, case=mixed, eff=no, tok=13a, smooth=exp
-- **Version:** 2.3.1
-
-### chrF++ Score (IndicTrans)
-- **Score:** 52.7
-- **Signature:** nrefs=1, case=mixed, eff=yes, nc=6, nw=2, space=no
-- **Version:** 2.3.1
-
-### Hindi to English Translation (IndicTrans2)
-
-### BLEU Score
-- **Score:** 41.8
-- **Verbose Score:** 75.8/55.0/42.7/34.0 (BP = 0.843 ratio = 0.854 hyp_len = 14136 ref_len = 16552)
-- **Signature:** nrefs=1, case=mixed, eff=no, tok=13a, smooth=exp
-- **Version:** 2.3.1
-
-### chrF++ Score
-- **Score:** 62.0
-- **Signature:** nrefs=1, case=mixed, eff=yes, nc=6, nw=2, space=no
-- **Version:** 2.3.1
-
-### Telugu to English Translation(IndicTrans2)
-
-### BLEU Score
-- **Score:** 41.9
-- **Verbose Score:**"75.7/62.7/53.9/46.8 (BP = 1.000 ratio = 1.138 hyp_len = 18839 ref_len = 16552)",
-- **Signature:** nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.3.1
-
-### chrF++ Score
-- **Score:** 64.3
-- **Signature:** nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.3.1
-
-
-### Hindi to English Translation (Googletrans)
-
-### BLEU Score
-- **Score:** 58.9
-- **Verbose Score:** 75.7/62.7/53.9/46.8 (BP = 1.000 ratio = 1.138 hyp_len = 18839 ref_len = 16552)
-- **Signature:** nrefs=1, case=mixed, eff=no, tok=13a, smooth=exp
-- **Version:** 2.3.1
-
-### chrF++ Score
-- **Score:** 80.0
-- **Signature:** nrefs=1, case=mixed, eff=yes, nc=6, nw=2, space=no
-- **Version:** 2.3.1
-
-### Telugu to English Translation(Googletrans)
-
-### BLEU Score
-- **Score:** 92.6 
-- **Verbose Score:** "94.0/92.9/92.1/91.3 (BP = 1.000 ratio = 1.048 hyp_len = 18802 ref_len = 17936)",
-- **Settings:** nrefs=1, case=mixed, eff=no, tok=13a, smooth=exp
-- **Version:** 2.3.1
-
-### chrF++ Score
-- **Score:** 97.4,
-- **Signature:** "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.3.1",
+| Model          | BLEU       | chrF2++          | 
+| ---------------- | ------------- | ------------- | 
+|IndicTrans(Hindi To English)       |{score: 23.6, verbose : 70.7/43.6/29.6/21.2(BP = 0.633 ,ratio = 0.686 ,hyp_len = 11356, ref_len = 16552)}| {score:46.7,nrefs: 1,case: mixed,eff: yes,nc: 6,nw: 2}| 
+|IndicTrans2(Hindi To English)      |{score: 41.8, verbose : 75.8/55.0/42.7/34.0(BP = 0.843 ,ratio = 0.854, hyp_len = 14136, ref_len = 16552)}| {score: 62.0,nrefs: 1,case: mixed,eff: yes,nc: 6,nw: 2}        | 
+|Google Trans(Hindi To English)    |{score: 58.9, verbose : 75.7/62.7/53.9/46.8(BP = 1.000 ,ratio = 1.138 ,hyp_len = 18839 ,ref_len = 16552)}| {score: 80.0,nrefs: 1,case: mixed,eff: yes,nc: 6,nw: 2}| 
+|IndicTrans(Telugu To English)      |{score: 27.7, verbose : 65.0/38.2/24.9/16.9(BP = 0.868 ,ratio = 0.876 ,hyp_len = 15708, ref_len = 17936)} |{score: 52.7,nrefs: 1,case: mixed,eff: yes,nc: 6,nw: 2}|        
+|IndicTrans2(Telugu To English) |{score: 41.9, verbose : 73.0/50.2/37.3/28.5(BP = 0.994 ,ratio = 0.946, hyp_len = 16967 ,ref_len = 17936)}|{score: 64.3,nrefs: 1,case: mixed,eff: yes,nc: 6,nw: 2}|        
+|Google Trans(Telugu To English)         |{score: 92.6, verbose : 94.0/92.9/92.1/91.3(BP = 1.000 ,ratio = 1.048, hyp_len = 18802, ref_len = 17936)}| {score: 97.4,nrefs: 1,case: mixed,eff: yes,nc: 6,nw: 2}|  
 
 <br>
 
