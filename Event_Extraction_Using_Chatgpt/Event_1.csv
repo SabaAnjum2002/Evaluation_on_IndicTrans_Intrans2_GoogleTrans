@@ -1,0 +1,393 @@
+article,true_label,cleaned_true_labels,predicted_label
+"Bus falls off bridge in Jharkhand; 6 killed, several injured | DH Latest News, DH NEWS, Latest News, India, NEWS , Hazaribag, Death, Bus Accident, Jharkhand .   Ranchi: At least six people were killed and many others injured after a bus carrying around 50 passengers fell off a bridge in Jharkhand's | DH Latest News, DH NEWS, Latest News, India, NEWS , Hazaribag, Death, Bus Accident, Jharkhand ",[],,"The provided news article does not include any events related to a disease, so the result is an empty list."
+"11 killed, 10 injured as jeep rams into tractor trolley in Rajasthan's Jhunjhunu - India News . In a road mishap, at least 11 people were killed while 10 others sustained injuries when a jeep rammed into a tractor trolley in Rajasthan's Jhunjhunu.  ",[],,[]
+"Covid-19: India sees drop in daily cases, logs 112 new infections today | Mint . Covid-19 update: The death toll stands at 5,30,677 with three fatalities, which includes two deaths reconciled by Kerala and one from Maharashtra in the last 24 hours. ","[{'Disease': 'Covid-19', 'Location': 'India ', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '112'}, {'Disease': 'Covid-19', 'Location': 'India ', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'new', 'Number': '3'}, {'Disease': 'Covid-19', 'Location': 'India', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'total', 'Number': '5,30,677'}, {'Disease': 'Covid-19', 'Location': 'Kerala', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'new', 'Number': '2'}, {'Disease': 'Covid-19 ', 'Location': 'Maharashtra', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'new', 'Number': '1'}]",,"[
+  {
+    ""Disease"": ""Covid-19"",
+    ""Location"": ""India"",
+    ""Incident"": ""case"",
+    ""Incident_Type"": ""new"",
+    ""Number"": 112
+  },
+  {
+    ""Disease"": ""Covid-19"",
+    ""Location"": ""India"",
+    ""Incident"": ""death"",
+    ""Incident_Type"": ""total"",
+    ""Number"": 530677
+  },
+  {
+    ""Disease"": ""Covid-19"",
+    ""Location"": ""Kerala"",
+    ""Incident"": ""death"",
+    ""Incident_Type"": ""new"",
+    ""Number"": 2
+  },
+  {
+    ""Disease"": ""Covid-19"",
+    ""Location"": ""Maharashtra"",
+    ""Incident"": ""death"",
+    ""Incident_Type"": ""new"",
+    ""Number"": 1
+  }
+]"
+,[],,
+"On Children's Day-eve, top specialist says congenital heart disease kills 78K infants in India yearly | CanIndia News . A staggering 78,000 infants born with congenital heart disease die in India annually due to inadequate healthcare facilities and lack of awareness, according to top cardiac surgeon Dr. Ramakanta Panda, the Group CEO of Asian Heart Institute (AHI), Mumbai. In contrast, the number of children dying from heart failure or related problems has dropped by […]",[],,"[{'Disease': 'congenital heart disease', 'Location': 'India', 'Incident': 'death', 'Incident_Type': 'total', 'Number': 78000}]"
+"Indore Reports 10 Vector Borne Diseases In A Wk | Indore News - Times of India . Indore: Ten new cases of dengue and malaria were found in the district in the last one week, showed records from the district malaria office.","[{'Disease': 'Dengue', 'Location': 'Indore', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '10'}, {'Disease': 'Malaria', 'Location': 'Indore', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '10'}]",,"[{
+'Disease': 'dengue and malaria', 
+'Location': 'Indore', 
+'Incident': 'case', 
+'Incident_Type': 'new', 
+'Number': 10
+}]"
+"India News | No Serious Health Problems from Brahmapuram Fire: Kerala CM | LatestLY . Get latest articles and stories on India at LatestLY.  Vijayan, who had come under scrutiny for not addressing the Brahmapuram crisis told the Legislative assembly that according to available figures, 1,335 people sought medical help in government and private hospitals including 128 children below 10 years of age and 262 above 60 years of age. India News | No Serious Health Problems from Brahmapuram Fire: Kerala CM.",[],,"The given news article does not provide information about any specific disease to extract events as per the required format. Therefore, the result is an empty list."
+"NYC blaze kills 4, including baby | Urban Legend with Kevin Sheehan (Video) | New York Post . An Oct. 30 apartment fire in the Bronx took the lives of four members in the close-knit Yemeni community, including three children. One of the victims was a 10-month-old girl, the daughter of Saleh…",[],,[]
+"India sees 30% rise in Covid tally with 2,786 fresh cases in last 24 hours - Jammu Kashmir Latest News | Tourism | Breaking News J&K . New Delhi, Oct 13: India registered a single-day rise of 2,786 new COVID-19 cases, taking the country’s tally of infections to 4,46,21,319, while the count of active cases has increased to 26,509, according to Union Health Ministry data updated on Thursday. The death toll due to the disease has climbed to 5,28,847 with 12 fatalities being recorded, including six deaths reconciled by Kerala, the data updated at 8 am showed. Active cases now comprise 0.06 per cent of the total infections, … ","[{'Disease': 'Covid ', 'Location': 'India', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '2786'}, {'Disease': 'Covid ', 'Location': 'India', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': '44621319'}, {'Disease': 'Covid ', 'Location': 'India', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'total', 'Number': '528847'}, {'Disease': 'Covid', 'Location': 'India', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'new', 'Number': '12'}, {'Disease': 'Covid ', 'Location': 'Kerala', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'new', 'Number': '6'}]",,"[
+{
+""Disease"": ""COVID-19"",
+""Location"": ""India"",
+""Incident"": ""case"",
+""Incident_Type"": ""new"",
+""Number"": 2786
+},
+{
+""Disease"": ""COVID-19"",
+""Location"": ""India"",
+""Incident"": ""case"",
+""Incident_Type"": ""total"",
+""Number"": 44621319
+},
+{
+""Disease"": ""COVID-19"",
+""Location"": ""India"",
+""Incident"": ""case"",
+""Incident_Type"": ""active"",
+""Number"": 26509
+},
+{
+""Disease"": ""COVID-19"",
+""Location"": ""India"",
+""Incident"": ""death"",
+""Incident_Type"": ""total"",
+""Number"": 528847
+},
+{
+""Disease"": ""COVID-19"",
+""Location"": ""Kerala"",
+""Incident"": ""death"",
+""Incident_Type"": ""new"",
+""Number"": 6
+}
+]"
+India News | Uttar Pradesh CM Condoles Deaths in Road Accident in Rae Bareli | LatestLY . Get latest articles and stories on India at LatestLY. Uttar Pradesh Chief Minister Yogi Adityanath on Wednesday expressed condolences over the death of five people in a road accident in Uttar Pradesh's Rae Bareli. India News | Uttar Pradesh CM Condoles Deaths in Road Accident in Rae Bareli. ,[],,[]
+"Jammu and Kashmir: Three terrorists killed as Army foils infiltration bid along LoC in Uri | India News – India TV . Jammu and Kashmir: The use of electronic surveillance and intelligence-based operations continue to be the mainstay of the Army’s operations against Pakistan-sponsored terror in J&K, police said.  ",[],,[]
+"Calling man ‘bald’ is sex-related harassment, employment tribunal rules | The Independent . Ruling made by panel of three men who bemoaned their own lack of hair   ",[],,[]
+"The human virus: When is the vaccine coming? | Deccan Herald . ""Coronavirus is not new. It has always been there in humans. Everyone knows."" I was still trying to understand what 'norovirus' was all about, after two cases were detected in Kerala, when came this profound observation from my domestic help. I tried to explain to her that while Covid-19 cases were rising again, some norovirus symptoms mirrored those of the former. And monkeypox has joined the party. ""Relax, didi. This is how it always has been. Look around. Are the people any less than a virus?"" she laughed, perhaps both at my concerns and ignorance. ",[],,"[
+
+{
+""Disease"": ""Norovirus"",
+""Location"": ""Kerala"",
+""Incident"": ""case"",
+""Incident_Type"": ""new"",
+""Number"": ""2""
+},
+
+{
+""Disease"": ""Covid-19"",
+""Incident_Type"": ""new""
+}
+
+]"
+"Gujarat: Status of post-Godhra riots cases monitored by SC-appointed panel | Law-Order . The Gujarat High Court upheld the conviction of 16 people, including Bajrangi, but acquitted Kodnani.3 Sardarpura case Thirteen people were killed in Sardarpura village in Mehsana district in the post-Godhra riots.",[],,"The given text does not mention any disease. Therefore, no events can be extracted based on the provided keys. The result is an empty list."
+‘60 sarpanches committed suicide in Telangana’ - The Hindu . Release funds to panchayats immediately: Revanth Reddy,[],,"The instructions also specify extraction based on 'Disease', but the provided news article doesn't provide any information on a specific disease. Hence, no events can be extracted as per your instructions. The result is an empty list."
+"85 New Covid Cases Reported In City, Dist | Vadodara News - Times of India .  After a spike of 162 cases on Wednesday, the number of Covid-19 cases reported in the city and district slipped below 100 again on Thursday. From 1,9 ","[{'Disease': 'Covid', 'Location': 'Vadodara', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '85'}, {'Disease': 'Covid-19', 'Location': 'Vadodara', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '162'}]",,"[{'Disease': 'Covid-19', 'Location': 'Vadodara', 'Incident': 'case', 'Incident_Type': 'new', 'Number': 85}, {'Disease': 'Covid-19', 'Location': 'Vadodara', 'Incident': 'case', 'Incident_Type': 'new', 'Number': 162}]"
+COVID-19 cases rise to 98 due to institutional clusters  - The Hindu . Chennai  and Chengalpattu account for a majority of the fresh infections ,"[{'Disease': 'COVID-19', 'Location': 'Chennai ', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': ''}, {'Disease': 'COVID-19', 'Location': 'Chengalpattu', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': ''}, {'Disease': 'COVID-19', 'Location': '', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': '98'}]",,"[
+    {
+        ""Disease"": ""COVID-19"",
+        ""Location"": ""Chennai"",
+        ""Incident"": ""case"",
+        ""Incident_Type"": ""new"",
+        ""Number"": ""unknown""
+    },
+    {
+        ""Disease"": ""COVID-19"",
+        ""Location"": ""Chengalpattu"",
+        ""Incident"": ""case"",
+        ""Incident_Type"": ""new"",
+        ""Number"": ""unknown""
+    },
+    {
+        ""Disease"": ""COVID-19"",
+        ""Location"": ""unknown"",
+        ""Incident"": ""case"",
+        ""Incident_Type"": ""total"",
+        ""Number"": 98
+    }
+]"
+"India train crash: Narendra Modi vows the 'harshest punishment' for those to blame as number of dead rises above 300 | World News | Sky News . At least 300 people are dead and more than 850 are injured, with warnings that the number of deaths is expected to rise as more bodies are removed from wreckage.",[],,"The instructions given does not match the content of the news article provided. The article is about a train crash, not a disease outbreak. Therefore, based on the given instructions, no events can be extracted from this article. The result is an empty list."
+"Bird flu confirmed in ducks in Alappuzha - The Hindu . 1,500 birds dead in the past week in Haripad municipality  ","[{'Disease': 'Bird flu', 'Location': 'Alappuzha', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'new', 'Number': '1500'}]",,"[{
+'Disease':'Bird flu',
+'Location':'Alappuzha',
+'Incident':'death',
+'Incident_Type':'total',
+'Number':1500
+},
+{
+'Disease':'Bird flu',
+'Location':'Haripad municipality',
+'Incident':'death',
+'Incident_Type':'new',
+'Number':1500
+}]"
+"Pune city reports 39 cases of Swine Flu in seven days - Hindustan Times . The city has seen 39 cases of Swine Flu between September 10 and September 17, as per the health department ","[{'Disease': 'Swine Flu', 'Location': 'Pune', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new ', 'Number': '39'}]",,"[
+  {
+    ""Disease"": ""Swine Flu"",
+    ""Location"": ""Pune city"",
+    ""Incident"": ""case"",
+    ""Incident_Type"": ""new"",
+    ""Number"": 39
+  }
+]"
+"India News | Haryana: 1 Dead as Car Carrying 4 Meets with Accident Due to Reckless Driving | LatestLY . Get latest articles and stories on India at LatestLY.  &quot;One boy from Delhi dead after a car carrying 4 people en route to Kullu-Manali from Delhi met with an accident in Kurukshetra due to reckless driving,&quot; said police personnel Jiya Singh.  India News | Haryana: 1 Dead as Car Carrying 4 Meets with Accident Due to Reckless Driving.",[],,[]
+Bihar: Four suffer bullet injuries after chain snatchers fired shots during theft attempt in Patna | Patna News – India TV . Bihar: The gunshot firing and extortion poster in the capital of the state raised serious question on the deteriorating law and order situation in Bihar.,[],,[]
+"Maharashtra: Record 62 patients of BA.4 and BA.5, 79 of BA.2.75 sub-variant of Omicron detected .   ","[{'Disease': 'Omicron', 'Location': 'Maharashtra', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '62'}]",,"[{'Disease': 'BA.4', 'Location': 'Maharashtra', 'Incident': 'case', 'Incident_Type': 'new', 'Number': 62}, {'Disease': 'BA.5', 'Location': 'Maharashtra', 'Incident': 'case', 'Incident_Type': 'new', 'Number': 62}, {'Disease': 'BA.2.75', 'Location': 'Maharashtra', 'Incident': 'case', 'Incident_Type': 'new', 'Number': 79}]"
+"India News | UP: Six Killed, 8 Injured in Road Mishap Accident in Shravasti's Ikauna | LatestLY . Get latest articles and stories on India at LatestLY.  Shravasti Superintendent of Police, Prachi Singh, said that during the time of the incident there were 14 people in the car and six of them died on the spot.  Eight of the injured have been referred to Bahraich District Hospital, she said.  India News | UP: Six Killed, 8 Injured in Road Mishap Accident in Shravasti's Ikauna.",[],,[]
+"Mysterious Disease In AP's Eluru Claims 1 Life, 347 Falls Ill, Samples Sent To Delhi - Date 08-12-2020 Online | JioCinema . Watch Mysterious Disease In AP's Eluru Claims 1 Life, 347 Falls Ill, Samples Sent To Delhi All Latest Episodes Live Online On JioCinema. Get Best Quality Online Streaming Of All Colors Hindi TV Show Videos For Free. Vote Now For Your Favourite Contestant.","[{'Disease': '', 'Location': 'AP', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': '347'}, {'Disease': '', 'Location': 'AP', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'total', 'Number': '1'}]",,"[
+  {
+    ""Disease"": ""Mysterious Disease"",
+    ""Location"": ""AP's Eluru"",
+    ""Incident"": ""death"",
+    ""Incident_Type"": ""new"",
+    ""Number"": 1
+  },
+  {
+    ""Disease"": ""Mysterious Disease"",
+    ""Location"": ""AP's Eluru"",
+    ""Incident"": ""case"",
+    ""Incident_Type"": ""new"",
+    ""Number"": 347
+  }
+]"
+"Forget Covid, Tomato flu is giving sleepless nights to people; over 100 cases detected in India - The Kashmir Monitor . New Delhi:  Tomata flu is spreading fast in the country. Over 100 cases have been reported from Kerala, Tamil Nadu, Odisha, and Haryana. ","[{'Disease': 'Tomato flu', 'Location': 'India', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': '100'}, {'Disease': 'Tomata flu', 'Location': 'Kerala', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': ''}, {'Disease': 'Tomata flu', 'Location': 'Tamil Nadu', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': ''}, {'Disease': 'Tomata flu', 'Location': 'Odisha', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': ''}, {'Disease': 'Tomata flu', 'Location': 'Haryana', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': ''}]",,"[
+{
+""Disease"": ""Tomata flu"",
+""Location"": ""India"",
+""Incident"": ""case"",
+""Incident_Type"": ""new"",
+""Number"": ""100""
+},
+{
+""Disease"": ""Tomata flu"",
+""Location"": ""Kerala"",
+""Incident"": ""case"",
+""Incident_Type"": ""new"",
+""Number"": ""Unknown""
+},
+{
+""Disease"": ""Tomata flu"",
+""Location"": ""Tamil Nadu"",
+""Incident"": ""case"",
+""Incident_Type"": ""new"",
+""Number"": ""Unknown""
+},
+{
+""Disease"": ""Tomata flu"",
+""Location"": ""Odisha"",
+""Incident"": ""case"",
+""Incident_Type"": ""new"",
+""Number"": ""Unknown""
+},
+{
+""Disease"": ""Tomata flu"",
+""Location"": ""Haryana"",
+""Incident"": ""case"",
+""Incident_Type"": ""new"",
+""Number"": ""Unknown""
+}
+]"
+Bengal records about 309 Covid cases in a day . kolkata: Bengal has seen a slight rise in daily Covid cases with 309 new patients being detected on Wednesday. Single day Covid cases stood at 279 on Tuesday while on Monday the number of daily... ,"[{'Disease': 'Covid', 'Location': 'Bengal', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '309'}, {'Disease': 'Covid', 'Location': 'Bengal', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '279'}]",,"[
+  {
+    ""Disease"": ""Covid"",
+    ""Location"": ""Bengal"",
+    ""Incident"": ""case"",
+    ""Incident_Type"": ""new"",
+    ""Number"": 309
+  },
+  {
+    ""Disease"": ""Covid"",
+    ""Location"": ""Bengal"",
+    ""Incident"": ""case"",
+    ""Incident_Type"": ""new"",
+    ""Number"": 279
+  }
+]"
+10 Sevalayam boys treated for food poisoning discharged from Tirupur GH .  ,[],,"[{
+'Disease': 'food poisoning', 
+'Location': 'Tirupur GH', 
+'Incident': 'case', 
+'Incident_Type': 'new', 
+'Number': '10'
+}]"
+"India News | Goa: 9 Russians, Among 14 Persons Rescued over Christmas Weekend | LatestLY . Get latest articles and stories on India at LatestLY.  The Christmas weekend also saw five other rescues across the coastal belt of Goa. Morjim, Vagator, and Mandrem accounted for most of the rescue incidents. India News | Goa: 9 Russians, Among 14 Persons Rescued over Christmas Weekend.",[],,[]
+"10,112 fresh COVID cases in India - Jammu Kashmir Latest News | Tourism | Breaking News J&K . NEW DELHI, Apr 23: India today recorded a single-day rise of 10,112 fresh COVID-19 infections, while the number of active cases increased to 67,806, according to Union Health Ministry data. With the fresh cases, India’s COVID-19 tally stands at 4.48 crore (4,48,91,989). The death toll climbed to 5,31,329 with 29 fatalities, including seven reconciled by Kerala, the data updated at 8 am stated. The daily positivity rate was recorded at 7.03 per cent and the weekly positivity rate at 5.43 […]","[{'Disease': 'COVID', 'Location': 'India', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '10,112'}, {'Disease': 'COVID-19', 'Location': 'India', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': '4,48,91,989'}, {'Disease': 'COVID-19', 'Location': 'India', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'total', 'Number': '5,31,329'}, {'Disease': 'COVID-19', 'Location': 'India', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'new', 'Number': '29'}, {'Disease': 'COVID-19', 'Location': 'Kerala', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'new', 'Number': '7'}]",,"[
+{
+""Disease"": ""COVID-19"",
+""Location"": ""India"",
+""Incident"": ""case"",
+""Incident_Type"": ""new"",
+""Number"": 10112
+},
+{
+""Disease"": ""COVID-19"",
+""Location"": ""India"",
+""Incident"": ""case"",
+""Incident_Type"": ""total"",
+""Number"": 44891989
+},
+{
+""Disease"": ""COVID-19"",
+""Location"": ""India"",
+""Incident"": ""death"",
+""Incident_Type"": ""new"",
+""Number"": 29
+},
+{
+""Disease"": ""COVID-19"",
+""Location"": ""India"",
+""Incident"": ""death"",
+""Incident_Type"": ""total"",
+""Number"": 531329
+},
+{
+""Disease"": ""COVID-19"",
+""Location"": ""India"",
+""Incident"": ""case"",
+""Incident_Type"": ""active"",
+""Number"": 67806
+},
+{
+""Disease"": ""COVID-19"",
+""Location"": ""Kerala, India"",
+""Incident"": ""death"",
+""Incident_Type"": ""reconciled"",
+""Number"": 7
+}
+]"
+"Turkey-Syria quake toll rising every minute, every hour even as rescuers toil night and day to dig through rubble - India Today . Rescuers are struggling against the freezing snow and rain to pull survivors from the rubble in Turkey and Syria amid growing concerns about how long they could last in the cold. The death toll from the earthquakes crossed 8,000 on Wednesday. ",[],,"The provided news article does not contain information about any disease, so no events can be extracted based on the requested dictionary keys. The result is an empty list."
+"India News | 1997 Uphaar Cinema Fire: Court Reserves Order on Ansal Brothers' Appeal Against 7-yr-jail Term | LatestLY . Get latest articles and stories on India at LatestLY.  A Delhi court on Friday reserved its order on appeals filed by real estate tycoons Sushil and Gopal Ansal challenging their conviction and the seven-year jail terms for tampering with evidence in a case related to the 1997 Uphaar cinema fire, which had claimed 59 lives.   India News | 1997 Uphaar Cinema Fire: Court Reserves Order on Ansal Brothers' Appeal Against 7-yr-jail Term. ",[],,[]
+"India News | Delhi Logs 9 New Covid Cases in Last 24 Hours | LatestLY . Get latest articles and stories on India at LatestLY.  The national capital logged 9 new Covid cases in the last 24 hours, with a case positivity rate of 0.22 per cent, stated a bulletin issued by the Delhi Health Department on Friday. India News | Delhi Logs 9 New Covid Cases in Last 24 Hours.","[{'Disease': 'Covid', 'Location': 'Delhi', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '9'}]",,"[{
+""Disease"": ""Covid"",
+""Location"": ""Delhi"",
+""Incident"": ""case"",
+""Incident_Type"": ""new"",
+""Number"": 9
+}]"
+"What is ‘tomato flu’? New virus spreads in India - News Maker . As the world continues its fight against Covid-19 and the ever-spreading monkeypox virus, it seems as though there’s another illness gaining a foothold.“Tomato flu” was first identified in India on May 6 and has so far infected 82 children, who are all under the age of FIVE, according to a study by the Lancet Respiratory ","[{'Disease': 'tomato flu', 'Location': 'India', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': '82'}, {'Disease': 'Covid-19', 'Location': 'World', 'Incident (case or death)': 'case', 'Incident Type (new or total)': '', 'Number': ''}, {'Disease': 'monkeypox', 'Location': 'World', 'Incident (case or death)': 'case', 'Incident Type (new or total)': '', 'Number': ''}]",,"[ 
+    { ""Disease"": ""Tomato flu"", 
+      ""Location"": ""India"", 
+      ""Incident"": ""case"", 
+      ""Incident_Type"": ""new"", 
+      ""Number"": 82 
+    }, 
+    { ""Disease"": ""Covid-19"", 
+      ""Location"": ""World"", 
+      ""Incident"": ""case"", 
+      ""Incident_Type"": ""total"", 
+      ""Number"": ""Unspecified"" 
+    }, 
+    { ""Disease"": ""Monkeypox virus"",
+      ""Location"": ""World"", 
+      ""Incident"": ""case"", 
+      ""Incident_Type"": ""total"", 
+      ""Number"": ""Unspecified"" 
+    } 
+]"
+"India sees single-day rise of 18,930 Covid 19 cases; active caseload nears 1.2 lakh-mark  - Oneindia News .   ","[{'Disease': 'Covid 19', 'Location': 'India', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '18,930'}, {'Disease': 'Covid 19', 'Location': 'India', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': '1,20,000'}]",,"[{
+'Disease': 'Covid 19',
+'Location': 'India',
+'Incident': 'case',
+'Incident_Type': 'new',
+'Number': 18930
+}]"
+"India News | Man Murdered over Friendship with Woman in Thane; Cops Search for 4 Accused | LatestLY . Get latest articles and stories on India at LatestLY.   A 21-year-old man was killed allegedly by four persons in Maharashtra's Thane district after the main accused was annoyed over a woman breaking-up with him and developing friendship with the victim, police said on Sunday.  India News | Man Murdered over Friendship with Woman in Thane; Cops Search for 4 Accused.",[],,"The given news article does not provide information on any disease. Therefore, the extracted events list is empty."
+"India News | Mizoram Logs 33 Fresh Coronavirus Cases | LatestLY . Get latest articles and stories on India at LatestLY.    Mizoram on Wednesday reported 33 fresh COVID-19 cases, eight more than the previous day, taking the state's tally to 2,27,794, a health department official said.   India News | Mizoram Logs 33 Fresh Coronavirus Cases. ","[{'Disease': 'COVID-19', 'Location': 'Mizoram', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '33'}, {'Disease': 'COVID-19', 'Location': 'Mizoram', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': '2,27,794'}]",,"[{'Disease': 'COVID-19', 'Location': 'Mizoram', 'Incident': 'case', 'Incident_Type': 'new', 'Number': 33},
+ {'Disease': 'COVID-19', 'Location': 'Mizoram', 'Incident': 'case', 'Incident_Type': 'total', 'Number': 227794}]"
+"Maharashtra records 1,113 new Covid-19 cases and three deaths . The new cases took the overall infection tally to 81,59,506, as per the bulletin","[{'Disease': 'Covid-19', 'Location': 'Maharashtra', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '1,113'}, {'Disease': 'Covid-19', 'Location': 'Maharashtra', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': '81,59,506'}, {'Disease': 'Covid-19', 'Location': 'Maharashtra', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'new', 'Number': '3'}]",,"[{'Disease': 'Covid-19', 'Location': 'Maharashtra', 'Incident': 'case', 'Incident_Type': 'new', 'Number': 1113}, {'Disease': 'Covid-19', 'Location': 'Maharashtra', 'Incident': 'death', 'Incident_Type': 'new', 'Number': 3}, {'Disease': 'Covid-19', 'Location': 'Maharashtra', 'Incident': 'case', 'Incident_Type': 'total', 'Number': 8159506}]"
+"Assam flood: Toll rises to 25, situation improves marginally | www.lokmattimes.com . Assam flood: Toll rises to 25, situation improves marginally: Guwahati, May 23 The situation in the pre-monsoon floods, which affecting the large parts of Assam since May .... Get all latest entertainment & viral stories on www.lokmattimes.com ",[],,"The given text does not provide information about any disease, therefore, no relevant events can be extracted based on the provided format. The result is an empty list."
+"Erode reports four new COVID-19 cases  - The Hindu . ERODE Four new COVID-19 cases were reported in Erode on Saturday, taking the overall tally to 1,36,600","[{'Disease': 'COVID-19', 'Location': 'Erode', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '4'}, {'Disease': 'COVID-19', 'Location': 'Erode', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': '1,36,600'}]",,"[{'Disease': 'COVID-19', 'Location': 'Erode', 'Incident': 'case', 'Incident_Type': 'new', 'Number': 4},
+ {'Disease': 'COVID-19', 'Location': 'Erode', 'Incident': 'case', 'Incident_Type': 'total', 'Number': 136600}]"
+Madhya Pradesh reports 32 new Covid-19 cases | Bhopal News - Times of India . A total of 32 new Covid-19 positive cases were reported in the state on Tuesday. No death was reported in the state on Tuesday. ,"[{'Disease': 'Covid-19', 'Location': 'Madhya Pradesh', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '32'}, {'Disease': 'Covid-19', 'Location': 'Madhya Pradesh', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'new', 'Number': '0'}]",,"[
+  {
+  ""Disease"": ""Covid-19"",
+  ""Location"": ""Madhya Pradesh"",
+  ""Incident"": ""case"",
+  ""Incident_Type"": ""new"",
+  ""Number"": 32
+  },
+  {
+  ""Disease"": ""Covid-19"",
+  ""Location"": ""Madhya Pradesh"",
+  ""Incident"": ""death"",
+  ""Incident_Type"": ""total"",
+  ""Number"": 0
+  }
+]"
+"ladakh: Two soldiers among 5 dead as J and K, Ladakh receive heavy rains, unseasonal snowfall - The Economic Times . Unseasonal snowfall and continuous rainfall have caused flash floods in Ladakh and Jammu and Kashmir, killing five people, including two soldiers. A red alert warning for Monday has been issued for some parts of Jammu and Ladakh as water bodies continue to flood. Several lower catchment areas have been evacuated to safety, and many villages are now submerged. Some people caught in floods have been rescued by police and search and rescue teams.",[],,[]
+"3 new cases raise Nagaland's COVID tally to 31,938 | India News . 3 new cases raise Nagaland's COVID tally to 31,938 ","[{'Disease': 'COVID', 'Location': 'Nagaland', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '3'}, {'Disease': 'COVID', 'Location': 'Nagaland', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': '31,938'}]",,"[{'Disease': 'COVID', 'Location': 'Nagaland', 'Incident': 'case', 'Incident_Type': 'new', 'Number': 3},
+ {'Disease': 'COVID', 'Location': 'Nagaland', 'Incident': 'case', 'Incident_Type': 'total', 'Number': 31938}]"
+"Terrorist who shot dead Bank manager from Kulgam, killed in Shopian encounter - Jammu Kashmir Latest News | Tourism | Breaking News J&K . Shopian, June 15: One out of the two Lashkar-e-Taiba (LeT) terrorists killed in the Shopian Encounter on Wednesday had been involved in the killing of Vijay Kumar (bank manager) from Kulgam district, informed the police. “One of the killed terrorists has been identified as Jan Mohd Lone of Shopian. Besides other terror crimes, he was involved in recent killing of Vijay Kumar, Bank manager on June 2 in Kulgam district,” tweeted the Kashmir zone police. The banker, Vijay Kumar, was … ",[],,[]
+"Snake found in midday meal, 98 children fall ill | Patna News - Times of India .  At least 98 schoolchildren fell sick after consuming midday meal in which a dead snake was allegedly found at a government middle school at Amouna in",[],,"[ 
+    {
+        'Disease': 'Food Poisoning',
+        'Location': 'Amouna, Patna',
+        'Incident': 'case',
+        'Incident_Type': 'new',
+        'Number': 98
+    }
+]"
+"More than 4,800 'victims' of Church sex abuse in Portugal: Study : The Tribune India . More than 4,800 individuals may have been victims of child sex abuse in the Portuguese Catholic Church and 512 alleged victims have already come forward to speak out, an expert panel looking into historic abuse in the church said on Monday.",[],,[]
+"What is Lumpy Skin disease, affecting lakhs of cattle in India? Know if it can spread in humans . Over 7,300 cattle in India have dies so far across 8 states due to the Lumpy Skin disease, which is wreaking havoc in the country for milk producers. ","[{'Disease': 'Lumpy Skin Disease', 'Location': 'India', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': '7300'}]",,"[{
+""Disease"": ""Lumpy Skin disease"",
+""Location"": ""India"",
+""Incident"": ""case"",
+""Incident_Type"": ""total"",
+""Number"": ""7300""
+},
+{
+""Disease"": ""Lumpy Skin disease"",
+""Location"": ""India"",
+""Incident"": ""death"",
+""Incident_Type"": ""total"",
+""Number"": ""7300""
+}]"
+Five cattle die in fire : The Tribune India . Yamunanagar: Five cattle died after a fire broke out in the huts built to keep cattle and store wheat straw at Kalesar village in Yamunanagar on Saturday. The villagers claim that the fire was caused by a sparking in the electric line that passes close to the gutted huts. The official cause of the f ,[],,[]
+"Two die of dengue in Mizoram, 1 in Manipur | Imphal News - Times of India . Meanwhile, forty-six fresh Chikungunya cases have been detected this month so far taking the total number of infections to 70. ","[{'Disease': 'dengue', 'Location': 'Mizoram', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'new', 'Number': '2'}, {'Disease': 'dengue', 'Location': 'Manipur', 'Incident (case or death)': 'death', 'Incident Type (new or total)': 'new', 'Number': '1'}, {'Disease': 'Chikungunya', 'Location': '', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'new', 'Number': '46'}, {'Disease': 'Chikungunya', 'Location': '', 'Incident (case or death)': 'case', 'Incident Type (new or total)': 'total', 'Number': '70'}]",,"[
+{
+""Disease"": ""Dengue"",
+""Location"": ""Mizoram"",
+""Incident"": ""death"",
+""Incident_Type"": ""total"",
+""Number"": 2
+}, 
+{
+""Disease"": ""Dengue"",
+""Location"": ""Manipur"",
+""Incident"": ""death"",
+""Incident_Type"": ""total"",
+""Number"": 1
+}, 
+{
+""Disease"": ""Chikungunya"",
+""Location"": """",
+""Incident"": ""case"",
+""Incident_Type"": ""new"",
+""Number"": 46
+},
+{
+""Disease"": ""Chikungunya"",
+""Location"": """",
+""Incident"": ""case"",
+""Incident_Type"": ""total"",
+""Number"": 70
+}
+]"
