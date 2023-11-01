@@ -34,10 +34,9 @@ def process_line(line):
 input_file_path = 'original_texts_hi.txt'
 output_file_path = 'Indic_hi.txt'
 with open(input_file_path, 'r') as input_file, open(output_file_path, 'a') as output_file:
-    # Read each line from the input file
-    for line in input_file:
-      processed_line = process_line(line)
-      output_file.write(processed_line + '\n')
+     for line in input_file:
+         processed_line = process_line(line)
+         output_file.write(processed_line + '\n')
 input_file.close()
 output_file.close()
 ```
@@ -202,6 +201,65 @@ translate_file(input_file_path, output_file_path, dest_language='en')
 <br>
 
 <strong> Event Extraction Using Chat gpt</strong>:
+<<<<<<< HEAD
+=======
+<br>
+-----
++ Events were Extracted by sending the article as an input to chatgpt with extra prompting and loaded the outputs in Event_Extraction_Chatgpt.csv file which is present in Event_Extraction_Using_Chatgpt Folder .
+```
+import os
+import openai
+import pandas as pd
+api_key = os.environ['OPENAI_API_KEY']
+openai.api_key = api_key
+
+def generate_predictions(content):
+    completion = openai.ChatCompletion.create(
+        model="gpt-4",
+        messages=[{"role": "user", "content": content+ "Given a news article, please extract relevant events in the form of dictionaries. Each event should include keys for 'Disease', 'Location,' 'Incident' (either 'case' or 'death'), 'Incident_Type' (either 'new' or 'total'), and 'Number.' If the 'Disease' key is not present in an event, do not include the event in the result. Additionally, please make sure that no duplicate events are included in the list. Provide the extracted events as a list of dictionaries. If no events are extracted, the result should be an empty list."}]
+    )
+    return completion.choices[0].message['content']
+data = pd.read_csv('output.csv')
+
+with open('event.txt', 'w') as txt_file:
+    # Iterate over rows and generate predictions
+    for index, row in data.iterrows():
+        trans_article = row['article']
+        if pd.notna(trans_article):  # Skip NaN values
+            prediction = generate_predictions(trans_article)
+            data.at[index, 'predicted_label'] = prediction
+            # Write the prediction to the text file
+            txt_file.write(prediction)
+        txt_file.write('\n')
+    
+data.to_csv('Event_Extraction_Chatgpt.csv', index=False)
+```
++ Then the soft precision,Hard Precision ,Soft Recall,Hard Recall,F1 score were calculated for True_Labels(Manual Event Extraction),Pred_Label(Predictions by chat gpt).The jupiter notebook code.ipynb contains the code for it which is present in Event_Extraction_Using_Chatgpt Folder .
+
++ <strong>Soft Match</strong>:
+Soft match is the fraction of the number of keys in a predicted event matched with the GT event out of the total keys'
+
++ <strong>Hard Match</strong>:
+'Hard-match returns 1 if all the keys match between predicted and gt events, else return 0
+
++ Soft scores and Hard scores for every row were calculated and mentioned in Soft_Hard_Scores_Chat_gpt.csv file which is present in Event_Extraction_Using_Chatgpt Folder .
+
+
+```
+Average Soft-match score:  0.7669937555753785
+Soft Precision:  0.6115220483641531
+Soft Recall:  0.7669937555753785
+Soft F1:  0.6804907004352982
+----------------------
+Average Hard-match score:  0.49687778768956287
+Hard Precision:  0.3961593172119488
+Hard Recall:  0.49687778768956287
+Hard F1:  0.4408389394538979
+```
++ Above are the Average Hard Scores and Soft Scores.
+
+<strong>Installation of requirements/dependencies</strong>:
+>>>>>>> 3ad6a44f81d9c0ba94e4deea838a32927e301ece
 <br>
 -----
 + Events were Extracted by sending the articel as an input to chatgpt with extra prompting and loaded the outputs in Event_Extraction_Chatgpt.csv file .
