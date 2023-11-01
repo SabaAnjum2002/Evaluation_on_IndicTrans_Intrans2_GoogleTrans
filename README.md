@@ -201,11 +201,12 @@ translate_file(input_file_path, output_file_path, dest_language='en')
 <br>
 
 <strong> Event Extraction Using Chat gpt</strong>:
-<<<<<<< HEAD
-=======
 <br>
------
+-------
+
+
 + Events were Extracted by sending the article as an input to chatgpt with extra prompting and loaded the outputs in Event_Extraction_Chatgpt.csv file which is present in Event_Extraction_Using_Chatgpt Folder .
+
 ```
 import os
 import openai
@@ -231,20 +232,15 @@ with open('event.txt', 'w') as txt_file:
             # Write the prediction to the text file
             txt_file.write(prediction)
         txt_file.write('\n')
-    
+
 data.to_csv('Event_Extraction_Chatgpt.csv', index=False)
 ```
 + Then the soft precision,Hard Precision ,Soft Recall,Hard Recall,F1 score were calculated for True_Labels(Manual Event Extraction),Pred_Label(Predictions by chat gpt).The jupiter notebook code.ipynb contains the code for it which is present in Event_Extraction_Using_Chatgpt Folder .
-
 + <strong>Soft Match</strong>:
 Soft match is the fraction of the number of keys in a predicted event matched with the GT event out of the total keys'
-
 + <strong>Hard Match</strong>:
 'Hard-match returns 1 if all the keys match between predicted and gt events, else return 0
-
 + Soft scores and Hard scores for every row were calculated and mentioned in Soft_Hard_Scores_Chat_gpt.csv file which is present in Event_Extraction_Using_Chatgpt Folder .
-
-
 ```
 Average Soft-match score:  0.7669937555753785
 Soft Precision:  0.6115220483641531
@@ -257,53 +253,29 @@ Hard Recall:  0.49687778768956287
 Hard F1:  0.4408389394538979
 ```
 + Above are the Average Hard Scores and Soft Scores.
+  
+<strong>Added more data of articles(Event_1.csv) and also a city.csv file</strong>:
 
-<strong>Installation of requirements/dependencies</strong>:
->>>>>>> 3ad6a44f81d9c0ba94e4deea838a32927e301ece
-<br>
------
-+ Events were Extracted by sending the articel as an input to chatgpt with extra prompting and loaded the outputs in Event_Extraction_Chatgpt.csv file .
++ city.csv file contains synonyms of every place.The variant column are the diff names to a single location .so if we find variant in an event then we need to replace it with the value.so that we dont have different names for same locations and it is present in Event_Extraction_Using_Chatgpt Folder.
++ And also we have removed the rows which contain empty true events.
 ```
-import os
-import openai
-import pandas as pd
-
-# Set up your OpenAI API key
-api_key = os.environ['OPENAI_API_KEY']
-openai.api_key = api_key
-
-# Function to generate predictions using GPT-4 Chat API
-def generate_predictions(content):
-    completion = openai.ChatCompletion.create(
-        model="gpt-4",
-        messages=[{"role": "user", "content": content+ "Given a news article, please extract relevant events in the form of dictionaries. Each event should include keys for 'Disease', 'Location,' 'Incident' (either 'case' or 'death'), 'Incident_Type' (either 'new' or 'total'), and 'Number.' If the 'Disease' key is not present in an event, do not include the event in the result. Additionally, please make sure that no duplicate events are included in the list. Provide the extracted events as a list of dictionaries. If no events are extracted, the result should be an empty list."}]
-    )
-    return completion.choices[0].message['content']
-
-# Read your DataFrame
-data = pd.read_csv('output.csv')
-
-# Open a text file for writing predictions
-with open('event.txt', 'w') as txt_file:
-    # Iterate over rows and generate predictions
-    for index, row in data.iterrows():
-        trans_article = row['article']
-        if pd.notna(trans_article):  # Skip NaN values
-            prediction = generate_predictions(trans_article)
-            data.at[index, 'predicted_label'] = prediction
-            # Write the prediction to the text file
-            txt_file.write(prediction)
-        txt_file.write('\n')    
-
-# Save the modified DataFrame to a new CSV file
-data.to_csv('Event_Extraction_Chatgpt.csv', index=False)
+Average Soft-match score:  0.8137603795966784
+Soft Precision:  0.6725490196078431
+Soft Recall:  0.8137603795966784
+Soft F1:  0.7364465915190552
+----------------------
+Average Hard-match score:  0.42823250296559906
+Hard Precision:  0.353921568627451
+Hard Recall:  0.42823250296559906
+Hard F1:  0.3875469672571122
 ```
-+ Then the soft precision,Hard Precision ,Soft Recall,Hard Recall,F1 score were calacuted for True_Labels(Manual Event Extraction),Pred_Label(Predictions by chat gpt)
-
-<strong>'Number of Characters (nc)'</strong>
-**Definition:** "nc" likely stands for "Number of Characters." This metric will evaluate translation quality at a character-level granularity.
-
++ Above are the Average Hard score and Soft score after this changes and we can find an improvement in the soft scores.
++ Soft_Hard_scores_chat_gpt_1.csv contains scores of these changes which is present in Event_Extraction_Using_Chatgpt Folder.
+  
 <strong>Installation of requirements/dependencies</strong>:
 <br>
 ---
 1.Installing the requirements by running the pip install -r requirements.txt
+
+
+
