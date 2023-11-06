@@ -270,8 +270,24 @@ Hard Recall:  0.42823250296559906
 Hard F1:  0.3875469672571122
 ```
 + Above are the Average Hard score and Soft score after this changes and we can find an improvement in the soft scores.
-+ Soft_Hard_scores_chat_gpt_1.csv contains scores of these changes which is present in Event_Extraction_Using_Chatgpt Folder.
-  
++ Soft_Hard_Scores_Chat_gpt_1.csv contains scores of these changes which is present in Event_Extraction_Using_Chatgpt Folder.
+
+<strong>Created a disease.csv file and worked on it </strong>:
++ File named disease.csv consist synonyms of every disease.The variant column are the diff names to a single disease.so if we find variant in an event then we need to replace it with the value.so that we dont have different names for same disease and it is present in Event_Extraction_Using_Chatgpt Folder.
+```
+Average Soft-match score:  0.8441281138790027
+Soft Precision:  0.7094715852442665
+Soft Recall:  0.8441281138790027
+Soft F1:  0.7709642470205842
+----------------------
+Average Hard-match score:  0.5860023724792408
+Hard Precision:  0.49252243270189433
+Hard Recall:  0.5860023724792408
+Hard F1:  0.5352112676056339
+```
++ Above are the Average Hard score and Soft score after this changes and we can find an improvement in every score.
++ Soft_Hard_Scores_Chat_gpt_final.csv contains scores of these changes which is present in Event_Extraction_Using_Chatgpt Folder.
+
 <strong>Installation of requirements/dependencies</strong>:
 <br>
 ---
